@@ -1,0 +1,99 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+/*image slider and header*/
+.headersurround-type-preset2 #rt-header-surround{
+  background-image: url(http://sites.test/fruitshop/wp-content/uploads/2018/05/ws_Colorful_fruit_mix_2560x1920.jpg);
+}
+.rt-text-extra-large{
+  font-family: Handlee;
+  font-weight: 600;
+}
+
+/*slot info*/
+.info-wrapper {
+  display:flex;
+  justify-content:space-between;
+}
+/*post styles*/
+.category-news{
+  color: #807878;
+  background: #121212;
+  padding:10px;
+}
+.listing-page .category-news .img-intro-, .items-leading .category-news .img-intro-{
+    width: 30%;
+}
+
+.listing-page .category-news .post-content, .items-leading .category-news .post-content{
+  margin: 10px;
+  width: 70%;
+  margin-left: 30%;
+  margin-top: -6%;
+  padding: 0 10px;
+}
+.gantry-width-33{
+  background-image: url(http://sites.test/fruitshop/wp-content/uploads/2018/05/blueberries.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-featured > h1{
+  text-align: center;
+}
+
+.category-news h2{
+  padding-left: 5px;
+}
+/*video & other slots styles*/
+#text-10011 .largemargintop {
+    margin-top: 0px !important;
+}
+#text-10011 .largepaddingtop {
+    padding-top: 0px !important;
+}
+
+#text-10011 .gantry-width-100 {
+    width: 108%;
+    margin-left: -5%;
+}
+
+/*textarea and input styles*/
+textarea, input, input[type="text"], input[type="password"], 
+input[type="datetime"], input[type="datetime-local"], 
+input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"],
+input[type="url"],  input[type="search"], input[type="tel"], input[type="color"] {
+  background-color: #00000000;
+  border: 1px solid #608436;
+}
+
+
+/*contact*/
+legend{color:#89AF5C;}
+.form-actions{background-color: #f5f5f500;}
+
+.box2.title2 .module-title {
+  background-color: #99be7e00;
+}
+
+.box2.title2 .module-content, #roksearch_search_str {
+  background-color: #99be7e;
+  color: #bad4a7;
+}
+/*newsletter*/
+.mc4wp-form-fields .readmore, .mc4wp-form-fields input{
+  height: 35px;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

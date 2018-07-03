@@ -1,0 +1,20 @@
+/**
+ * @version   1.4 July 24, 2017
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2017 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* General */
+a {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.1) !important;}
+
+/* Navigation */
+.dropdown {-webkit-backface-visibility: hidden;}
+.gf-menu.l1 > li > .item {-webkit-backface-visibility: hidden;font-weight: bold;}
+.gf-menu .item.icon [class^="icon-"], .gf-menu .item.icon [class*=" icon-"] {-webkit-font-smoothing: inherit;}
+
+/* Canvas */
+canvas {height: auto !important;}
+
+/* Demo Stuff */
+.fp-content-top-animate, .fp-content-top-image-block, .fp-featured-content-animate, .fp-featured-content-image-block {-webkit-transform: translate3d(0,0,0);}

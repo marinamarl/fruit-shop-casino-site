@@ -1,0 +1,16 @@
+/**
+ * @version   1.4 July 24, 2017
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2017 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Navigation */
+.gf-menu .item.icon [class^="icon-"], .gf-menu .item.icon [class*=" icon-"] {-webkit-font-smoothing: inherit;}
+.gf-menu .item {-webkit-transform: translate3d(0,0,0);}
+
+/* Canvas */
+canvas {height: auto !important;}
+
+/* Demo */
+body .rt-title-tag {opacity: 1;}

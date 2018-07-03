@@ -1,0 +1,15 @@
+/**
+ * @version   1.4 July 24, 2017
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2017 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Navigation */
+body .gf-menu.l1 > li.parent > .item:after {top: 100%;margin-top: -6px;}
+
+/* Demo SidePanel Menu */
+body .sidepmenu-block .gf-menu.l1 li.parent > .item:after {margin-top: -17px !important;}
+
+/* Mainbody */
+body #rt-content-top, body #rt-content-bottom {display: block;}
